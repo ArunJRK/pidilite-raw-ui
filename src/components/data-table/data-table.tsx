@@ -14,7 +14,7 @@ import {
   ChevronsLeft,
   ChevronsRight,
 } from "lucide-react";
-import categories from "@/data/categories.json";
+import categories from "@/data/cat.json";
 import { MultiSelect } from "@mantine/core";
 
 import { Button } from "@/components/ui/button";
@@ -47,8 +47,12 @@ const debounce = <T extends (...args: any[]) => void>(
     }, delay);
   };
 };
+interface SubcatType {
+  [key: string]: string[];
+}
 export function RawFeedbackTable() {
   const categoryOptions = categories.map((category) => category.category);
+
   const [subcategoryOptions, setSubcategoryOptions] = useState<string[]>([]);
   const [selectedSubcategories, setSelectedSubcategories] = useState<string[]>(
     []
@@ -93,7 +97,7 @@ export function RawFeedbackTable() {
         }
         const result: { feedbacks: RawFeedbackType[]; pagination: any } =
           await response.json();
-        console.log("result", result);
+        // console.log("result", result);
 
         setData(result.feedbacks);
 
@@ -148,17 +152,34 @@ export function RawFeedbackTable() {
   // console.log("selectedCategories", selectedCategories);
   useEffect(() => {
     if (selectedCategories.length > 0) {
-      // find the subcategories for the selected categories
-      const subcategories = categories
+      const subcategoryData = categories
         .filter((category) => selectedCategories.includes(category.category))
-        .map((category) => category.subcategory);
-      setSubcategoryOptions(subcategories[0]);
-      const subcategories2 = categories
-        .filter((category) => selectedCategories.includes(category.category))
-        .map((category) => category.subcategory2);
-      setSubcategory2Options(subcategories2[0]);
+        .flatMap((category: any) => category.subcategory)
+        .flatMap(Object.keys);
+
+      setSubcategoryOptions(subcategoryData);
     }
-  }, [selectedCategories]);
+  }, [selectedCategories, categories]);
+
+  useEffect(() => {
+    if (selectedSubcategories.length > 0) {
+      const subcategory2Data = categories
+        .filter((category) => selectedCategories.includes(category.category))
+        .flatMap((category: any) => category.subcategory)
+        .filter((subcategory) =>
+          selectedSubcategories.some((selected) => selected in subcategory)
+        )
+        .flatMap((subcategory) =>
+          Object.entries(subcategory)
+            .filter(([key]) => selectedSubcategories.includes(key))
+            .flatMap(([, value]) => value)
+        );
+
+      setSubcategory2Options([...(new Set(subcategory2Data) as any)]);
+    }
+  }, [selectedSubcategories, selectedCategories, categories]);
+  // console.log("subcategory2Options", subcategory2Options);
+
   return (
     <div className="flex flex-col gap-3">
       <div className="flex items-center justify-between gap-3">

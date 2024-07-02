@@ -9,16 +9,19 @@ export async function GET(request: NextRequest) {
     const searchParams = request.nextUrl.searchParams;
     const page = parseInt(searchParams.get("page") || "1", 10);
     const limit = parseInt(searchParams.get("limit") || "10", 10);
-    const category = searchParams.get("category");
-    const subcategory = searchParams.get("subcategory");
-    const subcategory2 = searchParams.get("subcategory2");
+    let category = searchParams.get("category");
+    let subcategory = searchParams.get("subcategory");
+    let subcategory2 = searchParams.get("subcategory2");
     console.log("page", page, "limit", limit);
 
+    // category = category?.split(",");
+    // subcategory = subcategory?.split(",");
+    // subcategory2 = subcategory2?.split(",");
     // Build query
     const query: any = {};
-    if (category) query.category = category;
-    if (subcategory) query.subcategory = subcategory;
-    if (subcategory2) query.subcategory2 = subcategory2;
+    if (category) query.category = { $in: category.split(",") };
+    if (subcategory) query.subcategory = { $in: subcategory.split(",") };
+    if (subcategory2) query.subcategory2 = { $in: subcategory2.split(",") };
 
     // Calculate skip value for pagination
     const skip = (page - 1) * limit;

@@ -1,0 +1,776 @@
+[
+  {
+    "category": "Darpan",
+    "subcategory": [
+      {
+        "Darpan -- New Year Data Base": ["New Year Creation"]
+      },
+      {
+        "Tally Connector": ["Tally connector request"]
+      },
+      {
+        "Printing Issue": [
+          "Error on printing Sales/CN/DN/DC/Receipt",
+          "SKU name/HSN/GST/RATES  not printing or printing partially"
+        ]
+      },
+      {
+        "Invoice Related": [
+          "Invoice Incorrect",
+          "e-invoicing",
+          "Invoice Billing Issue",
+          "Invoice Copy Required"
+        ]
+      },
+      {
+        "Activation Key related": [
+          "Error message in Login",
+          "Activation key not available"
+        ]
+      },
+      {
+        "Auto PO related": [
+          "Auto PO not getting generated as per logic",
+          "Wrong auto PO quantity generated"
+        ]
+      },
+      {
+        "New year data base": [
+          "New year creation issue",
+          "Error message in Login"
+        ]
+      },
+      {
+        "New Darpan Installation": [
+          "Exclusive WSS - installation by HSPL",
+          "Common WSS - installation by Darpan Support"
+        ]
+      },
+      {
+        "Accounting/GST rate related": [
+          "IGST getting applied instead of SGST/CGST",
+          "Other accounting issues",
+          "GST rate in Darpan not matching with GST rate in Primary Invoice"
+        ]
+      },
+      {
+        "Reinstallation of Darpan": [
+          "Reinstallation with backup available",
+          "Reinstallation without backup",
+          "Error message in Login"
+        ]
+      },
+      {
+        "Outlets not visible": ["Outlet not visible in Darpan"]
+      },
+      {
+        "Version Update": [
+          "Issue in bill generation",
+          "Error message in Login",
+          "Error message in Syncing",
+          "Version Update failure"
+        ]
+      },
+      {
+        "Darpan PO generation issue": ["Others"]
+      },
+      {
+        "Scheme related (Darpan)": [
+          "Issue in bill generation",
+          "Scheme not deducted in bill"
+        ]
+      },
+      {
+        "Darpan Suggestions": ["Darpan Suggestions"]
+      },
+      {
+        "Login/Backup/Syncing Error": [
+          "Error message in Syncing",
+          "Error message in backup",
+          "Error message in Login"
+        ]
+      },
+      {
+        "Master/Proton Order/Invoice Download Error": [
+          "Primary invoice download issue due to HSN unavailability",
+          "Order download issue due to SKU extension unavailability",
+          "Master download issue"
+        ]
+      },
+      {
+        "Information email on Darpan Support ID": [
+          "Information email on Darpan Support ID"
+        ]
+      },
+      {
+        "Darpan Training - refresher/retraining": [
+          "Darpan Training - refresher/retraining"
+        ]
+      },
+      {
+        "Double Outlets visible": ["Double Outlets visible in Darpan"]
+      },
+      {
+        "LAN Installation": [
+          "LAN installation request",
+          "Error message in Login"
+        ]
+      },
+      {
+        "Order Conversion/Billing Error": [
+          "Order not converting to bill",
+          "Issue in bill generation"
+        ]
+      },
+      {
+        "Stock in Stock Out requests": ["Stock in Stock Out requests"]
+      },
+      {
+        "Darpan Training - first time": ["Darpan Training - first time"]
+      },
+      {
+        "Rate error": ["Incorrect rate of SKU in Darpan"]
+      },
+      {
+        "CN not reflecting": ["Dealer CN not reflecting in Darpan"]
+      },
+      {
+        "Modifications in bill format": ["Modifications in bill format"]
+      }
+    ]
+  },
+  {
+    "category": "Material Delivery",
+    "subcategory": [
+      {
+        "Delivery Related": [
+          "Delivered after LDD-Patna",
+          "Awaitign delivery-Invoice Beyond LDD-Banglore",
+          "Awaitign delivery-Invoice Beyond LDD-Delhi",
+          "Awaitign delivery-Invoice Beyond LDD-Guwahati",
+          "Awaitign delivery-Invoice Within LDD-Banglore",
+          "Awaitign delivery-Invoice Beyond LDD-Ranchi",
+          "Awaitign delivery-Invoice Within LDD-Nagpur",
+          "Awaitign delivery-Invoice Within LDD-Delhi",
+          "Awaitign delivery-Invoice Within LDD-Ambala",
+          "Awaitign delivery-Invoice Beyond LDD-Chennai",
+          "Awaitign delivery-Invoice Beyond LDD-Udaipur",
+          "Awaitign delivery-Invoice Beyond LDD-Nagpur",
+          "Awaitign delivery-Invoice Beyond LDD-Pune",
+          "Awaitign delivery-Invoice Within LDD-Hubli",
+          "Delivered after LDD-Ahmedabad",
+          "Awaitign delivery-Invoice Beyond LDD-Kolkata",
+          "Awaiting delivery -Invoice Within LDD-Chennai",
+          "Awaitign delivery-Invoice Beyond LDD-Lucknow",
+          "Awaiting delivery -Invoice Within LDD-Vijaywada",
+          "Delay in Delivery beyond LDD",
+          "Awaitign delivery-Invoice Beyond LDD-Ahmedabad",
+          "Awaitign delivery-Invoice Beyond LDD-Ghaziabad",
+          "Awaitign delivery-Invoice Beyond LDD-Hubli",
+          "Awaitign delivery-Invoice Within LDD-Ghaziabad",
+          "Awaitign delivery-Invoice Beyond LDD-Cuttack",
+          "Awaitign delivery-Invoice Beyond LDD-Jammu",
+          "Awaitign delivery-Invoice Within LDD-Guwahati",
+          "Awaitign delivery-Invoice Beyond LDD-Jaipur",
+          "Awaitign delivery-Invoice Within LDD-Pune",
+          "Delivered after LDD-Indore",
+          "Delivered after LDD-Raipur",
+          "Awaitign delivery-Invoice Beyond LDD-Jabalpur",
+          "Goods Return Approval",
+          "Awaiting delivery -Invoice Within LDD-Patna",
+          "Delivered after LDD-Ranchi",
+          "Awaitign delivery-Invoice Within LDD-Bhiwandi",
+          "Awaitign delivery-Invoice Beyond LDD-Ambala",
+          "Awaitign delivery-Invoice Beyond LDD-Vijaywada",
+          "Awaitign delivery-Invoice Beyond LDD-Raipur",
+          "Awaitign delivery-Invoice Beyond LDD-Indore",
+          "Awaitign delivery-Invoice Beyond LDD-Hyderabad",
+          "Delivered after LDD-Chennai",
+          "Awaitign delivery-Invoice Beyond LDD-Patna",
+          "Awaiting delivery -Invoice Within LDD-Kolkata",
+          "Awaitign delivery-Invoice Within LDD-Kolkata",
+          "Awaitign delivery-Invoice Beyond LDD-Bhiwandi"
+        ]
+      },
+      {
+        "Short Delivery Related": [
+          "Short item received than the invoiced-Ahmedabad",
+          "Short item received than the invoiced-Kolkata",
+          "Short item received than the invoiced-Udaipur",
+          "Short item received than the invoiced-Pune",
+          "Short item received than the invoiced-Ambala",
+          "Short item received than the invoiced-Chennai",
+          "Short item received than the invoiced-Guwahati",
+          "Short item received than the invoiced-Bhiwandi",
+          "Short item received than the invoiced-Cuttack",
+          "Short item received than the invoiced-Lucknow",
+          "Short item received than the invoiced-Patna",
+          "Short item received than the invoiced-Hyderabad",
+          "Short item received than the invoiced-Raipur",
+          "Short item received than the invoiced-Indore",
+          "Short item received than the invoiced-Banglore",
+          "Short item received than the invoiced-Nagpur",
+          "Short item received than the invoiced-Ghaziabad",
+          "Short item received than the invoiced-Jaipur"
+        ]
+      },
+      {
+        "Transporter Feedback Related": [
+          "Transporter/Depot Feedback-Cuttack",
+          "Transporter/Depot Feedback-Nagpur",
+          "Transporter/Depot Feedback-Guwahati",
+          "Transporter/Depot Feedback-Pune",
+          "Transporter/Depot Feedback-Ranchi",
+          "Transporter/Depot Feedback-Udaipur",
+          "Transporter/Depot Feedback-Patna",
+          "Transporter/Depot Feedback-Bhiwandi",
+          "Transporter/Depot Feedback-Chennai",
+          "Transporter/Depot Feedback-Muzaffarpur",
+          "Transporter/Depot Feedback-Hubli",
+          "Transporter/Depot Feedback-Raipur",
+          "Transporter/Depot Feedback-Indore",
+          "Transporter/Depot Feedback-Jaipur",
+          "Transporter/Depot Feedback-Jabalpur",
+          "Transporter/Depot Feedback-Ambala",
+          "Transporter/Depot Feedback-Lucknow",
+          "Transporter/Depot Feedback-Ahmedabad",
+          "Transporter/Depot Feedback-Coimbatore",
+          "Transporter/Depot Feedback-Hyderabad",
+          "Transporter/Depot Feedback-Ghaziabad",
+          "Transporter/Depot Feedback-Varanasi",
+          "Transporter/Depot Feedback-Vijaywada",
+          "Transporter/Depot Feedback-Delhi",
+          "Transporter/Depot Feedback-Banglore"
+        ]
+      },
+      {
+        "Wrong item Delivery Related": [
+          "Wrong item received-Hyderabad",
+          "Wrong item received-Kolkata",
+          "Transporter/Depot Feedback-Pune",
+          "Transporter/Depot Feedback-Bhiwandi",
+          "Transporter/Depot Feedback-Nagpur",
+          "Transporter/Depot Feedback-Ambala",
+          "Wrong item received-Chennai",
+          "Transporter/Depot Feedback-Jaipur",
+          "Transporter/Depot Feedback-Udaipur",
+          "Transporter/Depot Feedback-Ghaziabad",
+          "Wrong item received-Ahmedabad",
+          "Transporter/Depot Feedback-Lucknow",
+          "Wrong item received-Patna"
+        ]
+      }
+    ]
+  },
+  {
+    "category": "DN Dispute",
+    "subcategory": [
+      {
+        "DN Related": [
+          "DN-PriceDIff",
+          "DN No PDC - Patna",
+          "Reffered by accounts to RSLM / Division",
+          "DN No PDC - Ambala",
+          "DN No PDC - Ahmedabad",
+          "DN No PDC - Indore",
+          "DN No PDC - Zirakpur",
+          "DN No PDC - Kolkata",
+          "DN-Cform",
+          "DN-DealerAck related"
+        ]
+      },
+      {
+        "DN / Discount Related": ["DN-CashDisc Revesal"]
+      },
+      {
+        "DN Bounce Related": [
+          "DN-Bounce - Vijaywada",
+          "DN-Bounce - Indore",
+          "DN-Bounce - Ahmedabad",
+          "DN-Bounce - Bhiwandi",
+          "DN-Bounce/RTGS done"
+        ]
+      }
+    ]
+  },
+  {
+    "category": "Other Helpline Related",
+    "subcategory": [
+      {
+        "Other helpline Query": ["Other helpline Query"]
+      }
+    ]
+  },
+  {
+    "category": "Humari Unnati",
+    "subcategory": [
+      {
+        "HU-Profile Related": [
+          "My Profile Details / Contact Info",
+          "New Humari Unnati Contact Details Update for E-Mail / Mobile Number"
+        ]
+      },
+      {
+        "Detail missing In new HU": [
+          "Price list related",
+          "Outstanding Info Not Reflecting",
+          "Unable To Login HU"
+        ]
+      },
+      {
+        "HU-Mismatch": [
+          "Account Transaction Mismatch",
+          "Credit Days Mismatch",
+          "Credit Limit Mismatch"
+        ]
+      },
+      {
+        "HU Suggestions": ["HU Suggestions"]
+      },
+      {
+        "HU-order": ["Order Related"]
+      },
+      {
+        "New Ledger Related": ["CN-DN Copy"]
+      },
+      {
+        "HU-Error": ["Error In Access"]
+      }
+    ]
+  },
+  {
+    "category": "Market Feedback",
+    "subcategory": [
+      {
+        "Profile related - Market": [
+          "WSS want to Unblock Code",
+          "Bank Account Change Request"
+        ]
+      },
+      {
+        "Policy Related": ["Policy Information"]
+      },
+      {
+        "Market Related": [
+          "Dealer Collection Not Recvd",
+          "Market Conflict",
+          "Visit/ Contact request from Sales",
+          "Service issues with Sales"
+        ]
+      },
+      {
+        "Extension request": ["Credit Extension Request"]
+      },
+      {
+        "Scorecard": ["Incentive Dispute"]
+      },
+      {
+        "Billing Issue": ["WSS Not Provide Darpan Bill In Market"]
+      },
+      {
+        "HU Credit change": ["Credit Limit Increase Related"]
+      }
+    ]
+  },
+  {
+    "category": "Scheme and other claims",
+    "subcategory": [
+      {
+        "IR related": [
+          "Pending with Godownkeeper-Patna",
+          "IR Pending at RLCSM Level - Ghaziabad",
+          "IR Pending at BM / ASM Level",
+          "Pending with Godownkeeper-Jaipur",
+          "Pending with Godownkeeper-Ambala",
+          "Pending with Godownkeeper-Raipur",
+          "IR Deleted",
+          "Pending with Godownkeeper-Ghaziabad",
+          "IR pending at Auditor Level",
+          "Integration Error",
+          "Pending with HO Accounts",
+          "IR Pending at RLCSM Level - Ambala",
+          "Pending with Godownkeeper-Indore",
+          "Pending with Godownkeeper-Bhiwandi",
+          "IR Pending at RLCSM Level - Lucknow",
+          "Humari Unnati Pending Claims",
+          "Pending with Godownkeeper-Lucknow",
+          "Pending with Godownkeeper-Kolkata"
+        ]
+      },
+      {
+        "Token Pending related": [
+          "Token/ Coupon Confirmation awaited-Pune",
+          "Token/ Coupon Confirmation awaited-Lucknow",
+          "Inactive Barcode Token",
+          "Token/ Coupon Confirmation awaited-Kolkata",
+          "Token/ Coupon Confirmation awaited-Ambala",
+          "Token/ Coupon Confirmation awaited-Ghaziabad",
+          "Token/ Coupon Confirmation awaited-Cuttack",
+          "Barcode CN Parked",
+          "Token/ Coupon Confirmation awaited-Indore"
+        ]
+      },
+      {
+        "Scheme related (WSS)": [
+          "CN Less than Claim value",
+          "Key Dealer (KD) Freight Claim",
+          "Stock Loss Declaration",
+          "CN Pending with HOD",
+          "Bar Code - Login/CN/Pending",
+          "2% WSS Freight claim",
+          "10% Handling Charges Issue",
+          "Scheme Code Request/Unfreeze",
+          "GST Related Credit",
+          "Inbill Discount Related Issue",
+          "Delay in CN Generation",
+          "TD / CD Discount / Margin Related Issue",
+          "Discount Related",
+          "Incentive Dispute"
+        ]
+      },
+      {
+        "Scheme DN Related": ["DN-DealerAck related", "DN-CashDisc Revesal"]
+      },
+      {
+        "Gift Dispute": ["LSP Related", "Scheme/ Gift Credit Delay/Dispute"]
+      },
+      {
+        "Darpan Disount Related": ["Secondary Discount Related Issue"]
+      },
+      {
+        "Invoice discount realted": ["Primary Discount Inbill Related Issue"]
+      }
+    ]
+  },
+  {
+    "category": "FFS Related",
+    "subcategory": [
+      {
+        "FFS Settlement Related": [
+          "FFS-Settlement Disputed",
+          "FFS-Statement/Calculation",
+          "For Live stock & NOC",
+          "FFS pending with HO account for SD Adjustment & Reconciliation",
+          "FFS-Trnsfr of Credit",
+          "FFS",
+          "FFS-HO Accounts",
+          "FFS-Chq with Sales",
+          "FFS Not Initiated",
+          "FFS-Planning Phase",
+          "Bank Account Details"
+        ]
+      }
+    ]
+  },
+  {
+    "category": "Collection/Finance",
+    "subcategory": [
+      {
+        "Collection Dispute": [
+          "Collection not found in Account Transaction",
+          "Collection Information Request",
+          "Overdue/Outstanding Information",
+          "Delayed or No Collection done",
+          "Bank Account Change Request",
+          "Double Collection Done"
+        ]
+      },
+      {
+        "Nach Bounce Dispute": [
+          "Nach Issue",
+          "NACH Bounce Dispute-RTGS done",
+          "NACH Bank Not Changed"
+        ]
+      },
+      {
+        "Invoice Related - Collection": [
+          "Information on dues and invoices awaiting payment"
+        ]
+      },
+      {
+        "Profile related - Collection": ["Issues with registration process"]
+      }
+    ]
+  },
+  {
+    "category": "Application Related",
+    "subcategory": [
+      {
+        "HU Related": [
+          "HU-CN/DN Dowload issues",
+          "SAP-SMS Issues",
+          "HU-478 report issue",
+          "PBP Dashboard Issue",
+          "Balance/ Claim Confirmation RelatedUnable to submit balance confirmation",
+          "HU-NC/BCC/ Undertaking Issues",
+          "HU-other issues",
+          "SAP EMail Issue",
+          "SASH Auto PO E-Mail Issue",
+          "HU-Humara Order issue",
+          "HU-EMCS 1/2 issues",
+          "HU-Issue in details viewed for Pending Order/Invoice/AC Details/Overdue/Outstanding/LR/Price List/Scheme & Discount",
+          "Bar Code - Login/CN/Pending",
+          "SMS Alert",
+          "HU & SAP Account Mismatch issue",
+          "HU Portal login issue",
+          "HU-OTP Issue"
+        ]
+      },
+      {
+        "Other helpline Query": ["Other helpline Query"]
+      },
+      {
+        "Detail missing In HU": [
+          "Unable to see Cheque details in HU",
+          "WSS issue in accessing the portal",
+          "Price list related",
+          "Unable to see Bounce Cheque details in HU"
+        ]
+      }
+    ]
+  },
+  {
+    "category": "Order Related (WSS)",
+    "subcategory": [
+      {
+        "Order -Invoice Related": [
+          "Order Relared / Billing Delay - Udaipur",
+          "Order Relared / Billing Delay - Chennai",
+          "Order Relared / Billing Delay - Raipur",
+          "Order Relared / Billing Delay - Pune",
+          "Order Relared / Billing Delay - Jammu",
+          "Order has to be re-punched or SKU not showing",
+          "Order Relared / Billing Delay - Patna",
+          "Order Relared / Billing Delay - Bhiwandi",
+          "Order Relared / Billing Delay - Nagpur",
+          "Order Relared / Billing Delay - Cuttack",
+          "Order Relared / Billing Delay - Ghaziabad",
+          "Order Relared / Billing Delay - Guwahati",
+          "Order Relared / Billing Delay - Hyderabad",
+          "Order Relared / Billing Delay - Indore",
+          "Order Relared / Billing Delay - Jabalpur",
+          "Order Relared / Billing Delay - Jaipur",
+          "Order Relared / Billing Delay - Ambala",
+          "Order Relared / Billing Delay - Banglore",
+          "Order Relared / Billing Delay - Ahmedabad",
+          "Order Relared / Billing Delay - Kolkata",
+          "Order Relared / Billing Delay - Lucknow",
+          "Order Relared / Billing Delay - Ranchi"
+        ]
+      },
+      {
+        "Order -Dispute": ["Sash dispute"]
+      },
+      {
+        "Order issue": [
+          "unabe to place order/disc",
+          "unabe to place order/chq bounce",
+          "Order Related-Order Unapproved",
+          "Unable to place order/ Disc error",
+          "Pending Order Issue",
+          "Unable to place order/Overdue"
+        ]
+      },
+      {
+        "Order Entry Related": [
+          "Order Entry - Material Excluded Error",
+          "Order Entry dispute",
+          "Order Entry - Material Discontinued Error"
+        ]
+      }
+    ]
+  },
+  {
+    "category": "Accounts",
+    "subcategory": [
+      {
+        "Ext./Payment/Blocking": [
+          "Extension",
+          "Misc Querries",
+          "CL Changes",
+          "Changes in mode of Payment",
+          "Blocking / Unblocking"
+        ]
+      },
+      {
+        "Nach Bounce Dispute": [
+          "Nach Issue",
+          "NACH Bank Not Changed",
+          "NACH Bounce Dispute-RTGS done"
+        ]
+      },
+      {
+        "Ledger Related": [
+          "Other than collection, ledger clarification",
+          "CN/DN Copy After May 13",
+          "SD Dispute",
+          "Dealer Wise Details Required",
+          "Statement After May13",
+          "SD Interest",
+          "SD Receipt Request",
+          "CN/DN Copy Before May'13",
+          "CN information/ Narration Unclear",
+          "Statement-Before May'13",
+          "CN / DN Calculation",
+          "SD Statement After May13",
+          "DN information/ Narration Unclear",
+          "Account statements not found in SAP to be logged here"
+        ]
+      },
+      {
+        "Invoice Related": [
+          "Invoice Copy Required",
+          "Invoice Incorrect",
+          "Invoice Billing Issue"
+        ]
+      }
+    ]
+  },
+  {
+    "category": "Pricing",
+    "subcategory": [
+      {
+        "Price issue": [
+          "WSS Required Updated Price List",
+          "Pricing Related Issue",
+          "Invoice errors(pricing VAT or other)"
+        ]
+      }
+    ]
+  },
+  {
+    "category": "WSS Score Card",
+    "subcategory": [
+      {
+        "PBTM Verification": ["PBTM Verification"]
+      },
+      {
+        "Dispute in incentives": ["Scorecard Dispute Related"]
+      },
+      {
+        "Score Card Page Not Loading": ["Scorecard Dispute Related"]
+      },
+      {
+        "Delay in incentives": ["Scorecard Dispute Related"]
+      },
+      {
+        "Score card Suggestions": ["Score card Suggestions"]
+      },
+      {
+        "Target Related": ["Target setting delay"]
+      },
+      {
+        "Order Service Scre": ["Scorecard Dispute Related"]
+      }
+    ]
+  },
+  {
+    "category": "TSI/TSR/Salesman Servicing",
+    "subcategory": [
+      {
+        "Others": ["Process & Policy"]
+      }
+    ]
+  },
+  {
+    "category": "Feedback Call",
+    "subcategory": [
+      {
+        "Suggestion / Feedback Call": ["Suggestion / Feedback Call"]
+      }
+    ]
+  },
+  {
+    "category": "Product/Packaging Feedback",
+    "subcategory": [
+      {
+        "Product related": ["Product/ Packaging"]
+      },
+      {
+        "Suggestions & Feedbacks": ["Suggestions & Feedbacks"]
+      }
+    ]
+  },
+  {
+    "category": "Profile Update",
+    "subcategory": [
+      {
+        "Others": ["Process & Policy"]
+      }
+    ]
+  },
+  {
+    "category": "Process & Policy Change",
+    "subcategory": [
+      {
+        "WSS Related": ["Process & Policy"]
+      }
+    ]
+  },
+  {
+    "category": "Indirect Tax",
+    "subcategory": [
+      {
+        "GST Related": [
+          "C Form Required",
+          "GST update in SAP",
+          "Incorrect GST",
+          "J1/J2 - Other States - Nagpur",
+          "GST Information"
+        ]
+      },
+      {
+        "TCS": ["TDS Certificate Requested", "TCS"]
+      }
+    ]
+  },
+  {
+    "category": "WSS Profile Related",
+    "subcategory": [
+      {
+        "Profile related": [
+          "WSS Mapping Correction",
+          "Humariunnati Contact Details Update for E-Mail/ Mobile Number",
+          "Birthday / Wedding Anniversary Update",
+          "Outcall registered mobile number",
+          "Pidilite Letter Required"
+        ]
+      },
+      {
+        "Address change related": [
+          "Ship to Address Change - Maharashtra, Goa",
+          "Ship to Address Change- Haryana,Himachal Pradesh,Jammu und Kashmir,Punjab,Chandigarh",
+          "Ship to Address Change -Uttar Pradesh,Delhi,Uttaranchal",
+          "Ship to Address Change - Kerala,Tamil Nadu,Pondicherry",
+          "Ship to Address Change-Daman und Diu,Dadra und Nagar Hav.Rajasthan,Madhya Pradesh,Gujarat",
+          "Bill To Address",
+          "Ship to Address Change-Arunachal Pradesh, Assam ,Manipur,Megalaya,Mizoram,Nagaland, Sikkim,Tripura,West Bengal,Andaman und Nico.In."
+        ]
+      }
+    ]
+  },
+  {
+    "category": "WSS Servicing",
+    "subcategory": [
+      {
+        "Others": ["Process & Policy"]
+      }
+    ]
+  },
+  {
+    "category": "Product Scheme",
+    "subcategory": [
+      {
+        "Others": ["Process & Policy"]
+      }
+    ]
+  },
+  {
+    "category": "Feedback/Suggestion",
+    "subcategory": [
+      {
+        "Others": ["Process & Policy"]
+      }
+    ]
+  }
+]
